@@ -1,3 +1,6 @@
+.text-image {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
 .bg-white {
   background: white;
 }
@@ -14,10 +17,10 @@
   max-width: 40px;
 }
 .bg-gradient-white-red {
-  	background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.7), rgba(255, 0, 0, 0.7));
+  	background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(220, 0, 0, 0.8));
 }
 .bg-gradient-red-white {
-  	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+  	background-image: linear-gradient(to bottom right, rgba(220, 0, 0, 0.8), rgba(255, 255, 255, 0.5));
 }
 .nav-link {
   transition: color 0.5s;
@@ -92,4 +95,7 @@
   width: 100%;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
+}
+.text-big {
+  font-size: 3.5rem;
 }
