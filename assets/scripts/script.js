@@ -32,19 +32,21 @@ $(function() {
   var options = {
     useEasing: true
   };
-  var pigletCount = 10400000;
-  var moneyCount = 484000000;
+  var pigletCount = 10.4;
+  var moneyCount = 484;
   var duration = 3;
-  var pigletAnim = new CountUp('piglets', 0, pigletCount - 1000, 0, duration, {
-    useEasing: true
+  var pigletAnim = new CountUp('piglets', 0, pigletCount, 1, duration, {
+    useEasing: true,
+    suffix: 'm'
   });
   pigletAnim.start(function() {
   	pigletAnim.update(pigletCount);
   });
 
-  var moneyAnim = new CountUp('money', 0, moneyCount - 10000, 0, duration, {
+  var moneyAnim = new CountUp('money', 0, moneyCount, 0, duration, {
     useEasing: true,
-    prefix: '$'
+    prefix: '$',
+    suffix: 'm'
   });
   moneyAnim.start(function() {
   	moneyAnim.update(moneyCount);
