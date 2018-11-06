@@ -1,11 +1,8 @@
 .text-image {
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
-.bg-white {
-  background: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.75);
 }
 .bg-gray {
-  background: lightGray;
+  background-color: lightGray;
 }
 .navbar-hidden {
   top: -100px;
@@ -63,20 +60,11 @@
   background-size: 1000px;
 }
 .parallax-window {
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/* .bg-clip-right {
-  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
-}
-.bg-clip-left {
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 100% 85%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 100% 85%);
-} */
 .circle-mask {
   display: inline-block;
   border-radius: 50%;
@@ -98,4 +86,12 @@
 }
 .text-big {
   font-size: 3.5rem;
+}
+.circle {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+}
+.bg-primary {
+  background-color: #dc0000;
 }
