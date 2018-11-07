@@ -95,6 +95,10 @@
 .bg-primary {
   background-color: #dc0000;
 }
+.card {
+  border: none;
+  overflow: hidden;
+}
 .card-img-top.normalized-top {
   position: relative;
   padding-top: 60%;
@@ -111,7 +115,13 @@
   align-items: center;
   justify-content: center;
 }
-
 .card-img-top.normalized-top .icon img {
   width: 50%;
+}
+.plain-window {
+  position: relative;
+  z-index: 10;
+}
+.window, .card, nav {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
