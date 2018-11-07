@@ -95,3 +95,23 @@
 .bg-primary {
   background-color: #dc0000;
 }
+.card-img-top.normalized-top {
+  position: relative;
+  padding-top: 60%;
+  background-size: cover;
+  background-position: center;
+}
+.card-img-top.normalized-top .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-top.normalized-top .icon img {
+  width: 50%;
+}
